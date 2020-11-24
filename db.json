@@ -1,0 +1,36 @@
+{
+  "processes" : [
+    {
+      "id": "1",
+      "name": "build",
+      "startTime": "22:30",
+      "jobsCount": 2
+    },
+    {
+      "id": "2",
+      "name": "build2",
+      "startTime": "22:00",
+      "jobsCount": 1
+    }
+  ],
+  "jobs" : [
+    {
+      "id": "1",
+      "processId": "1",
+      "name": "drink",
+      "status": 1
+    },
+    {
+      "id": "2",
+      "processId": "1",
+      "name": "drink2",
+      "status": 1
+    },
+    {
+      "id": "1",
+      "processId": "2",
+      "name": "drink",
+      "status": 0
+    }
+  ]
+}
